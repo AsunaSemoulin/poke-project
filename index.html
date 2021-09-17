@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/script.js" defer></script>
+    <title>PokeProject</title>
+</head>
+<body>
+    <h1 class="text-5xl mx-5 my-20 title text-center">PokeProject</h1>
+    <form class="flex justify-center">
+        <input type="text" id="pokemon" class="bg-gray-200 rounded p-2 border-2 border-gray-300">
+        <button id="validateBtn" class="bg-black text-white p-2 rounded">GET</button>
+    </form>
+
+    <section>
+        <section class="flex justify-center my-10">
+            <img src="" id="pokemonImageFront" class="inline-block">
+            <img src="" id="pokemonImageBack" class="inline-block">
+            <img src="" id="pokemonImageShiny" class="inline-block">
+        </section>
+        <section class="my-10 text-center">
+            <p id="pokemonName"></p>
+            <p id="pokemonID"></p>
+        </section>
+        <p id="pokemonStats" class="text-center"></p>
+    </section>
+</body>
+</html>

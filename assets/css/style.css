@@ -1,0 +1,8 @@
+@font-face {
+    font-family: pokeFont;
+    src: url(./fonts/PokemonSolid.ttf);
+  }
+
+.title {
+    font-family: pokeFont;
+}
